@@ -3,7 +3,7 @@ const loginUsername = document.getElementById('login-username')
 const loginPassword = document.getElementById('login-password')
 
 const headers = {
-  ‘Content-Type’:’application/json’
+  'Content-Type':'application/json'
 }
 
 const baseUrl = 'http://localhost:8080/api/v1/users'
@@ -32,4 +32,4 @@ const handleSubmit = async(e) => {
     }
 }
 
-registerForm.addEventListener("submit". handleSubmit)
+loginForm.addEventListener("submit", handleSubmit)
